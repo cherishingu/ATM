@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="274dp"
+    android:layout_height="191dp"
+    android:layout_gravity="center"
+    android:background="@color/style"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="274dp"
+        android:layout_height="191dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="尊敬的客户，您已同意授权申请\n请您稍后前往个人中心查看申请状态"
+            android:textColor="@color/word_color"
+            android:textSize="13dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/credit_finish"
+            android:layout_marginTop="40dp"
+            android:layout_width="107dp"
+            android:layout_height="33dp"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/btn_shape"/>
+    </LinearLayout>
+
+</LinearLayout>

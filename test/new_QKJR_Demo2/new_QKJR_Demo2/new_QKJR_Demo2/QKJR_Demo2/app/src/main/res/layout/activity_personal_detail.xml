@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+   >
+
+
+    <!--我的信息标题-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:background="@color/theme">
+        <ImageView
+            android:id="@+id/personal_detail_back"
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/img_back"/>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:text="我的信息"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fefefefe"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <!--姓名-->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="真实姓名"
+            android:textSize="13dp"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:id="@+id/personal_name"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"
+
+        ></LinearLayout>
+    <!--身份证号-->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="身份证号"
+            android:textSize="13dp"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:id="@+id/personal_id"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"
+
+        ></LinearLayout>
+
+    <!--手机号码-->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="手机号码"
+            android:textSize="13dp"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:id="@+id/personal_phone"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"
+
+        ></LinearLayout>
+
+    <!--紧急联络人-->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="紧急联络人"
+            android:textSize="13dp"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:id="@+id/personal_contact"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"
+
+        ></LinearLayout>
+
+    <!--家庭住址-->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="家庭住址"
+            android:textSize="13dp"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:id="@+id/personal_address"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"
+
+        ></LinearLayout>
+
+    <!--工作单位-->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="工作单位"
+            android:textSize="13dp"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:id="@+id/personal_work_address"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"
+
+        ></LinearLayout>
+    <!--所在部门-->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="所在部门"
+            android:textSize="13dp"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:id="@+id/personal_department"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"
+
+        ></LinearLayout>
+
+    <!--公司地址-->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="公司地址"
+            android:textSize="13dp"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:id="@+id/personal_company_address"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"
+
+        ></LinearLayout>
+
+    <!--银行卡号-->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="银行卡号"
+            android:textSize="13dp"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:id="@+id/personal_credit_card"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="7dp"
+        android:background="@color/line"
+
+        ></LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+    <!--照片-->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+        <!--身份证正面-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp">
+        <ImageView
+            android:id="@+id/personal_credit_img1"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:scaleType="center"
+            android:background="@mipmap/img_person_add"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="#737373"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="身份证正面"
+
+                />
+            />
+</LinearLayout>
+        <!--身份证反面-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:id="@+id/personal_credit_img2"
+                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:scaleType="center"
+                android:background="@mipmap/img_person_add">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="#737373"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="身份证反面"
+
+
+                />
+            />
+        </LinearLayout>
+        <!--手持身份证-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp">
+            <ImageView
+                android:id="@+id/personal_credit_img3"
+                android:layout_height="80dp"
+                android:layout_width="80dp"
+                android:scaleType="center"
+
+                android:background="@mipmap/img_person_add"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="#737373"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="手持身份证"
+
+                />
+            />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+        <Button
+            android:id="@+id/person_detail_save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@color/theme"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+           android:layout_marginTop="10dp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

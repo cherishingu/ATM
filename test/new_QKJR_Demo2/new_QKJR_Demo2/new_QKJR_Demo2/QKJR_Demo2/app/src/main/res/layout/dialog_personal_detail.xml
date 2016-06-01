@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="328dp"
+    android:layout_height="164dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/personal_detail_exclamation"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="您还未完善个人信息，请先完善！"
+        android:layout_gravity="center"
+        android:textColor="#353535"
+        android:layout_marginTop="20dp"
+
+        />
+    <Button
+        android:id="@+id/btn_personal_detail"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:text="完善信息"
+        android:background="@drawable/activity_search"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

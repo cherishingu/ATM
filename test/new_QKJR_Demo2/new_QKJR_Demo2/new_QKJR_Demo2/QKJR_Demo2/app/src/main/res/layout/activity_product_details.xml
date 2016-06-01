@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@color/style"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/theme"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/img_back"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/product_detail_back"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="50dp">
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_goods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品"
+            android:textSize="19dp"
+            android:background="@color/theme"
+            android:textColor="@color/white"
+           android:layout_gravity="center"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/btn_goodsdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="详情"
+            android:textSize="19dp"
+            android:background="@color/theme"
+            android:textColor="@color/white"
+
+            android:gravity="center"
+            />
+       </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+   <LinearLayout
+       android:orientation="vertical"
+       android:id="@+id/shopping_container"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       </LinearLayout>
+</LinearLayout>
+
+
+

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/style">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/theme"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/img_back"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/pay_back"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="支付订单"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="103dp"
+        android:orientation="vertical"
+        android:paddingTop="1dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:background="@color/white"
+        >
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="付款方式：       ******银行卡（******）"
+            android:textSize="17dp"
+            android:textColor="@color/word_color"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:layout_gravity="left|center"/>
+        <View
+            android:layout_width="360dp"
+            android:layout_height="1dp"
+            android:background="@color/line"
+            />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="付款金额：       476.64元"
+            android:textSize="17dp"
+            android:textColor="@color/word_color"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:layout_gravity="left|center"/>
+        <View
+            android:layout_width="360dp"
+            android:layout_height="1dp"
+            android:background="#b9b9b9"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="329dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="确认付款"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/pay"
+        android:gravity="center"
+        android:background="@drawable/btn_shape"
+        />
+</LinearLayout>
+
+
+

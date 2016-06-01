@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+  >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/style"
+    >
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+    <LinearLayout
+        android:layout_height="31dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="品  牌"
+            android:textColor="#f03250"
+            android:gravity="left"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:text="APPLE"
+            android:textColor="@color/personal_detail"
+            android:gravity="center"
+            android:layout_marginLeft="58dp"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+
+            android:textColor="@color/personal_detail"
+            android:gravity="center"
+            android:layout_marginLeft="58dp"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+
+            android:textColor="@color/personal_detail"
+            android:gravity="center"
+            android:layout_marginLeft="58dp"
+
+            />
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/personal_detail"
+
+        />
+        </LinearLayout>
+    <!--第一行-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:text="商品详情"
+
+                android:textColor="@color/black"
+                android:gravity="left"
+
+
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="iPad Pro"
+                android:textColor="#585858"
+                android:gravity="center"
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:text="商品编号"
+                android:textColor="@color/black"
+                android:gravity="center"
+
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="1234567"
+                android:textColor="#585858"
+                android:gravity="center"
+
+
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+
+            />
+    </LinearLayout>
+    <!--第二行-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:text="商品毛重"
+
+                android:textColor="@color/black"
+                android:gravity="left"
+
+
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="1.72kg"
+                android:textColor="#585858"
+                android:gravity="center"
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:text="商品产地"
+                android:textColor="@color/black"
+                android:gravity="center"
+
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="中国大陆"
+                android:textColor="#585858"
+                android:gravity="center"
+
+
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+
+            />
+    </LinearLayout>
+    <!--第三行-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:text=" 系    统"
+
+                android:textColor="@color/black"
+                android:gravity="left"
+
+
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="ios系统"
+                android:textColor="#585858"
+                android:gravity="center"
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:text="硬    盘"
+                android:textColor="@color/black"
+                android:gravity="center"
+
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="128G以上"
+                android:textColor="#585858"
+                android:gravity="center"
+
+
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+
+            />
+    </LinearLayout>
+    <!--第四行-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:text="热门型号"
+
+                android:textColor="@color/black"
+                android:gravity="left"
+
+
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="iPad"
+                android:textColor="#585858"
+                android:gravity="center"
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:text="尺    寸"
+                android:textColor="@color/black"
+                android:gravity="center"
+
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="12.1英寸以上"
+                android:textColor="#585858"
+                android:gravity="center"
+
+
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+
+            />
+    </LinearLayout>
+    <!--第五行-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:text=" 特    色"
+
+                android:textColor="@color/black"
+                android:gravity="left"
+
+
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="高清屏幕"
+                android:textColor="#585858"
+                android:gravity="center"
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+
+                android:textColor="@color/black"
+                android:gravity="center"
+
+
+
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+
+                android:textColor="#585858"
+                android:gravity="center"
+
+
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+
+            />
+    </LinearLayout>
+    <!--间距-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/personal_detail"
+
+            />
+    </LinearLayout>
+    <!--主体-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+        <TextView
+            android:text="主体"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="13dp"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+    <!--上市时间-->
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="上市时间"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="2015"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_marginLeft="19dp"
+                android:layout_gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+    <!--配置-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+        <TextView
+            android:text="配置"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="13dp"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+    <!--存储容量-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="存储容量"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="128G以上"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_marginLeft="19dp"
+                android:layout_gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+
+    <!--处理器-->
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="处理器"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="64位架构的A9X芯片M9运动协处理器"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_marginLeft="19dp"
+                android:layout_gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+    <!--处理器速度-->
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="处理器速度"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="与A7相比 中央处理器快达2.5倍"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_marginLeft="19dp"
+                android:layout_gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+
+    <!--显示芯片-->
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="显示芯片"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="与A7相比 图形处理器快达2.5倍"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_marginLeft="19dp"
+                android:layout_gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+    <!--显示-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+        <TextView
+            android:text="显示"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="13dp"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+    <!--屏幕尺寸-->
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="屏幕尺寸"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="12.9英寸"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_marginLeft="19dp"
+                android:layout_gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+    <!--屏幕分辨率-->
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="屏幕分辨率"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="2732*2608"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_marginLeft="19dp"
+                android:layout_gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+    <!--屏幕类型-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="屏幕分辨率"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="2732*2608"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_marginLeft="19dp"
+                android:layout_gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+
+
+    <!--屏幕描述-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="屏幕描述"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12.9英寸（对角线）LED背光Multi Touch显示屏， 2732*2048分辨率，264ppi，采用防油防指纹涂层，全层压显示屏，防反射涂层"
+
+                android:textSize="11dp"
+                android:singleLine="false"
+                android:gravity="center|left"
+                android:layout_marginLeft="12dp"
+
+                android:layout_gravity="center"
+
+                />
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+    <!--显示-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+        <TextView
+            android:text="连接"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="13dp"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+    <!--WIFI功能-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="WIFI功能"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="无线网络（802.11 a/b/g/n/ac）;双频（2.4GHZ和5GHZ）"
+                    android:textSize="11dp"
+                    android:singleLine="false"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="12dp"
+                    android:layout_gravity="center"
+
+                    />
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+   <!--蓝牙功能-->
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+
+
+            >
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="20dp"
+                    android:textSize="11dp"
+                    android:text="蓝牙功能"
+                    android:textColor="@color/black"
+                    android:gravity="left|center"
+
+                    />
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="@color/personal_detail"
+
+                    />
+            </LinearLayout>
+            <TextView
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="蓝牙4.2技术"
+                android:textSize="11dp"
+                android:gravity="center"
+                android:layout_marginLeft="19dp"
+                android:layout_gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/personal_detail"
+            android:layout_gravity="bottom"
+
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+
+
+
+
+

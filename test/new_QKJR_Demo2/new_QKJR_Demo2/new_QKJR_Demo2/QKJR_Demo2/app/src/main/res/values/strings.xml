@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="searchview">请输入您要搜索的物品</string>
+
+    <string name="app_name">商品贷</string>
+    <string name="apply_cancel">您的申请正在受理中，请耐心等候</string>
+    <string name="return_promot">提示：您的分期付款产品如果申请退货\n成功，您当期支付的款项将不会退还（收\n到商品7天内退货不收取任何费用）</string>
+    <string name="credit_confirm">如果您要分期购买商品，则需要同意下方授权申请</string>
+    <string name="txt_creditcetification">因本人向贵公司申请办理分期
+        付款业务，\n特授权贵公司有权向中国人民银行个人信\n用信息基础数据库查询、
+        使用本人个人信\n用报告，有权向中国人民银行个人信用信\n息基础数据库报送
+        本人个人信用信息，并\n有权在分期付款期限内以后贷后管理方式\n查询本人个人信用报告</string>
+    <string name="title_activity_basicativity">Basicativity</string>
+
+    <!-- 分期付款 -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="staging12">付款方式：分期付款  475.64×12期（含服务费）</string>
+    <string name="staging15">付款方式：分期付款  475.64×15期（含服务费）</string>
+    <string name="staging18">付款方式：分期付款  475.64×18期（含服务费）</string>
+    <string name="staging24">付款方式：分期付款  475.64×24期（含服务费）</string>
+
+</resources>
