@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#f2f2f2"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/img_wechat_logo"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="亲爱的用户\n关注公众号,接收还款信息提醒"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/text_color1"
+            android:textSize="16dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="91dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="40dp"
+            android:text="还款记录"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:background="@drawable/text_shape_3"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/text_color"
+            />
+        
+        <TextView
+            android:id="@+id/hitory_recent_record_tev"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:text="2016年4月1日还款成功"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:background="@drawable/textview_shape"
+            />
+    </LinearLayout>
+    <ListView
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/repayhistory_list"></ListView>
+
+</LinearLayout>

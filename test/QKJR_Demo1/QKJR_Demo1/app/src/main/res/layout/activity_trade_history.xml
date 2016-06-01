@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/ll_status_bar"
+        layout="@layout/item_status_bar_fill" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:background="#009ca8">
+        <ImageView
+            android:id="@+id/back_tradehistrory"
+            android:layout_marginLeft="12dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/img_back"/>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:text="历史交易"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fefefefe"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:orientation="horizontal"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       android:background="@drawable/textview_shape"
+       >
+
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:text="单号"
+           android:textColor="@color/black"
+           android:textSize="16dp"
+           android:gravity="center"
+
+           />
+       <TextView
+           android:layout_width="1px"
+           android:layout_height="38dp"
+           android:background="#b2b2b2"
+           android:layout_gravity="center_vertical"
+           />
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:text="期数"
+           android:textColor="@color/black"
+           android:textSize="16dp"
+           android:gravity="center"
+           />
+       <TextView
+           android:layout_width="1px"
+           android:layout_height="38dp"
+           android:background="#b2b2b2"
+           android:layout_gravity="center_vertical"
+           />
+
+       <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="40dp"
+           android:text="还款金额"
+           android:textColor="@color/black"
+           android:textSize="16dp"
+           android:gravity="center"
+           />
+       <TextView
+           android:layout_width="1px"
+           android:layout_height="38dp"
+           android:background="#b2b2b2"
+           android:layout_gravity="center_vertical"
+           />
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:text="申请日期"
+           android:textColor="@color/black"
+           android:textSize="16dp"
+           android:gravity="center"
+           />
+
+   </LinearLayout>
+    <ImageView
+        android:id="@+id/img_bg"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/img_nohistory"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/text_v"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="您还没有历史交易记录"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:footerDividersEnabled="true"
+        android:dividerHeight="2dp"
+        android:id="@+id/listview"
+        >
+
+
+    </ListView>
+
+
+</LinearLayout>

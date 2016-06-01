@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/toptile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:background="#ffc0cb">
+        <TextView
+            android:text="乾康现金贷申请"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/img_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/toptile"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/img_haokan"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/iem_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/img_parent"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="申请快捷，无抵押，无担保" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/iem_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/iem_1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="申请快捷，无抵押，无担保" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/iem_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/iem_2"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="申请快捷，无抵押，无担保" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/xieyigouxuan"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/iem_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="同意《用户服务协议》"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/try_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/xieyigouxuan"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="立即试试"/>
+</RelativeLayout>

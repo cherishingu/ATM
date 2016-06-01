@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="250dp"
+    android:layout_height="130dp"
+    android:background="#f6e4f5">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="选择联系人关系"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/tev1"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:clickable="true"
+            android:text="朋友"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/linelaybordernomal"/>
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/tev2"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:clickable="true"
+            android:text="同学"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:background="@drawable/linelaybordernomal"/>
+        <TextView
+            android:id="@+id/tev3"
+            android:textColor="#000000"
+            android:layout_width="40dp"
+            android:clickable="true"
+            android:layout_height="fill_parent"
+            android:text="邻居"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/linelaybordernomal"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp">
+
+
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/tev4"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:text="同事"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/linelaybordernomal"/>
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/tev5"
+                android:layout_width="40dp"
+                android:layout_height="fill_parent"
+                android:clickable="true"
+                android:text="室友"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:background="@drawable/linelaybordernomal"/>
+            <TextView
+                android:id="@+id/tev6"
+                android:textColor="#000000"
+                android:layout_width="40dp"
+                android:clickable="true"
+                android:layout_height="fill_parent"
+                android:text="其他"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/linelaybordernomal"/>
+
+
+
+    </RelativeLayout>
+</LinearLayout>

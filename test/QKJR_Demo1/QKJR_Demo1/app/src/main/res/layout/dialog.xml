@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="314dp"
+    android:id="@+id/dialog_parent"
+    android:layout_height="201dp"
+    android:gravity="center"
+    android:background="#d5d5d5">
+        <TextView
+            android:id="@+id/d_text"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="60dp"
+            android:layout_height="30dp"
+            android:text="尊敬的客户，您的贷款已受理"
+            android:textColor="#040404"
+            android:textSize="16dp"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/dialog_btn"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_centerInParent="true"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:textColor="#fefefe"
+            android:text="完 成"
+            android:textSize="20dp"
+            android:background="@drawable/btn_nomal3"/>
+</RelativeLayout>

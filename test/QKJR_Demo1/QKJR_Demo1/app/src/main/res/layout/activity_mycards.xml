@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/ll_status_bar"
+        layout="@layout/item_status_bar_fill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/theme"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/img_back"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/back_mycards"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我的银行卡"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/text_shape_4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:id="@+id/binds_linear"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/img_card"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="绑定银行卡"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/text_shape_4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:id="@+id/unbinds_linear"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/img_unbinds"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:text="解除绑定"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

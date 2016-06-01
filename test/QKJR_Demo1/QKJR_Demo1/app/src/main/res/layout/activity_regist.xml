@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/ll_status_bar"
+        layout="@layout/item_status_bar_fill" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/theme"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/img_back"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/back_regist"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="注 册"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/img_logo1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="乾 康 金 服"
+            android:textColor="#0e6600"
+            android:textSize="22dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册您的账号"
+        android:textSize="15dp"
+        android:textColor="#0e6600"
+        android:gravity="center_horizontal"
+        />
+
+
+    <LinearLayout
+        android:layout_width="243dp"
+        android:layout_height="114dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+
+        android:gravity="center"
+        android:background="@drawable/text_shape"
+        >
+        <EditText
+            android:id="@+id/phone_num"
+            android:layout_width="240dp"
+            android:layout_height="36.5dp"
+            android:layout_gravity="center"
+            android:hint="手机号"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/black"
+            android:phoneNumber="true"
+            android:singleLine="true"
+            android:maxLength="20"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:background="#f2f2f2"
+            />
+        <View
+            android:layout_width="240dp"
+            android:layout_height="1dp"
+            android:background="#b9b9b9"
+            />
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="240dp"
+            android:layout_gravity="center"
+            android:layout_height="36.5dp"
+            android:hint="密码"
+            android:background="#f2f2f2"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:password="true"
+            android:maxLength="20"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            />
+        <View
+            android:layout_width="240dp"
+            android:layout_height="1dp"
+            android:background="#b9b9b9"
+            />
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="36.5dp"
+            android:orientation="horizontal"
+            >
+
+
+            <EditText
+                android:id="@+id/vertify_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="left"
+                android:layout_height="36.5dp"
+                android:hint="验证码"
+                android:background="#f2f2f2"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                android:maxLength="20"
+                android:paddingLeft="10dp"
+                android:textSize="16dp"
+                />
+            <Widgets.TimeCountView
+                android:id="@+id/time_count"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="36.5dp"
+                android:layout_gravity="right"
+                app:text="获取验证码"
+                android:text="获取验证码"
+                android:textColor="@color/white"
+                app:maxNum="60"
+                android:textSize="12dp"
+                android:background="@drawable/btn_shape"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="注册"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:id="@+id/regist"
+        android:background="@drawable/btn_shape"
+        />
+
+</LinearLayout>
+
+
+

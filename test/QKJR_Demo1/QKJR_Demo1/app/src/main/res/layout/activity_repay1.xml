@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/ll_status_bar"
+        layout="@layout/item_status_bar_fill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/theme"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/img_back"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/back_repay1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="还 款"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/img_personal_unsel"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/user_count_name"
+            android:layout_width="100dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="40dp"
+            android:text="客户姓名"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:background="@drawable/text_shape_nostroke"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/text_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:text="已绑定借记卡账号"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/text_color"
+            android:background="@drawable/text_shape_nostroke"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/card_bond_tev"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:text="*********************"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:background="@drawable/textview_shape"
+            android:layout_gravity="center_vertical"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="91dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="28dp"
+            android:text="还款金额"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/text_color"
+            android:background="@drawable/text_shape_nostroke"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/repay_once_tev"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:text="*********************"
+            android:textSize="16dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:background="@drawable/textview_shape"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="28dp"
+        >
+
+        <ImageView
+            android:id="@+id/agree"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@mipmap/protocol_agree"
+            android:layout_gravity="center_vertical"
+
+            />
+
+        <TextView
+            android:id="@+id/need_underline2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="@string/protocol"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/need_underline1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="《乾康金服还款服务协议》"
+            android:textSize="16dp"
+            android:textColor="@color/theme"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/repay_now2"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="立 即 还 款"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+
+        />
+
+</LinearLayout>

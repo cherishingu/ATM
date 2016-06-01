@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">现金贷</string>
+    <string name="action_settings">Settings</string>
+    <string name="protocol">阅读并同意</string>
+
+    <string name="txt_creditcetification">因本人向贵公司申请办理个人
+        \n贷款业务，特授权贵公司有权向中国人民银行个人信用信息基础数据库查询、
+        使用本人个人信用报告，有权向中国人民银行个人信用信息基础数据库报送
+        本人个人信用信息，并有权在贷款期限内以后贷后管理方式查询本人个人信用报告</string>
+</resources>

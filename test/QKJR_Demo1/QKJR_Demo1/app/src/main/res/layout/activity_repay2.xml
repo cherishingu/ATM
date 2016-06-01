@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/ll_status_bar"
+        layout="@layout/item_status_bar_fill" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/theme"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/img_back"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/back_repay2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="还 款"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/img_repay_unsel"
+            android:layout_gravity="center_vertical"
+
+            />
+
+        <TextView
+            android:id="@+id/repayonce_tev"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/text_shape"
+            android:textColor="@color/text_color"
+            android:textColorHint="#d5d5d5"
+            android:layout_gravity="center_vertical"
+            android:hint="请输入您的还款金额"
+            android:paddingLeft="5dp"
+            />
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="请选择还款方式"
+        android:background="#d5d5d5"
+        android:textSize="16dp"
+        android:textColor="#6f6f6f"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@mipmap/img_wechat_logo"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            />
+        <LinearLayout
+            android:id="@+id/wechatpay_linear"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            >
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="微信支付"
+                android:gravity="left"
+                android:textSize="14dp"
+                android:textColor="#6f6f6f"
+                />
+
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="推荐微信用户使用"
+                android:gravity="left"
+                android:textSize="12dp"
+                android:textColor="#6f6f6f"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/img_unsel"
+            android:id="@+id/wechat_sel"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@mipmap/img_alipaylogo"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            />
+        <LinearLayout
+            android:id="@+id/alipay_linear"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            >
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="支付宝支付"
+                android:gravity="left"
+                android:textSize="14dp"
+                android:textColor="#6f6f6f"
+                />
+
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="推荐支付宝用户使用"
+                android:gravity="left"
+                android:textSize="12dp"
+                android:textColor="#6f6f6f"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/img_unsel"
+            android:id="@+id/alipay_sel"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@mipmap/img_unionpaylogo"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            />
+        <LinearLayout
+            android:id="@+id/unionpay_linear"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            >
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="银联支付"
+                android:gravity="center_vertical|left"
+                android:textSize="14dp"
+                android:textColor="#6f6f6f"
+                />
+
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="推荐用户使用"
+                android:gravity="center_vertical|left"
+                android:textSize="12dp"
+                android:textColor="#6f6f6f"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/img_unsel"
+            android:id="@+id/unionpay_sel"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/repay_2_next"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="下 一 步"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        />
+
+</LinearLayout>
